@@ -5,18 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
+
     <title>Celeste's World Clock </title>
 </head>
 
 <body>
-    <h1> World Clock </h1>
+    <div class="container">
+        <h1> World Clocks </h1>
 
-    <footer>
-        This project was coded by <a href="https://github.com/cwildlife" target="_blank">Celeste Rust</a> and is
-        open-sourced on <a href="https://github.com/cwildlife/celeste-world-clock" target="_blank"> Github</a>.
-        The project is hosted on <a href="https://celeste-world-clock.vercel.app/" target="_blank">Vercel</a>.
-    </footer>
-    <script src="src/script.js"></script>
+        <select>
+            <option value="">Select a city...</option>
+            <option value="">Amsterdam</option>
+            <option value="">Johannesburg</option>
+            <option value="">London</option>
+        </select>
+
+        <div class="city-one">
+            <h2> Cape Town </h2>
+            <div class="date"> 19 October 2026 </div>
+            <div class="time"> 16:15:25 PM </div>
+        </div>
+
+        <div class="city-two">
+            <h2> Dronten </h2>
+            <div class="date"> 19 October 2026 </div>
+            <div class="time"> 16:15:25 PM </div>
+        </div>
+
+        <footer>
+            This project was coded by <a href="https://github.com/cwildlife" target="_blank">Celeste Rust</a> and is
+            open-sourced on <a href="https://github.com/cwildlife/celeste-world-clock" target="_blank"> Github</a>.
+            The project is hosted on <a href="https://celeste-world-clock.vercel.app/" target="_blank">Vercel</a>.
+        </footer>
+        <script src="src/script.js"></script>
+    </div>
 </body>
 
 </html>
