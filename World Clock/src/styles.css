@@ -1,11 +1,96 @@
 body{
-    background-color: aquamarine;
+    background-image: url("../images/clock.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 500px;
+    padding: 30px;
+    margin: 60px auto;
+    background-color: white;
+    border-radius: 20px;
+    line-height: 1.5;
 }
 
 h1{
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 500;
+    font-size: 60px;
+    margin: 0 auto;
+    padding: 1px 10px;
     text-align: center;
+    color:#517564;  
+}
+
+h2{
+    font-family: "Special Elite", system-ui;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;  
+}
+
+select{
+    font-family: "Special Elite", system-ui;
+   color: #517564;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.city-one{
+    
+display: flex;
+justify-content: space-between;
+margin: 10px 0;
+padding-bottom: 1px;
+border-top: 1px solid gray;
+border-bottom: 1px dashed gray;
+
+}
+
+.city-two{
+display: flex;
+justify-content: space-between;
+margin: 10px 0;
+padding-bottom: 1px;
+border-bottom: 1px solid gray;
+}
+
+.date{
+    font-family: "Special Elite", system-ui;
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 1px 1px;
+    color:#517564;
+}
+
+.time{
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 25px 10px;
+}
+
+.time small{
+    font-size: 15px;
+    line-height: 1.5;
+    vertical-align: middle;
 }
 
 footer {
+    font-family: "Special Elite", system-ui;
+    font-size: 8px;
+    font-weight: 400;
     text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#517564;
+    font-weight: 500;
 }
