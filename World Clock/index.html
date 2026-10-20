@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Special+Elite&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.31.0/moment.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.5/moment-timezone-with-data-1970-2030.min.js"></script>
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
 
     <title>Celeste's World Clock </title>
@@ -23,20 +26,20 @@
             <option value="">London</option>
         </select>
 
-        <div class="city-one">
+        <div class="city-one" id="cityOne">
             <div>
                 <h2> Cape Town </h2>
-                <div class="date"> 19 October 2026 </div>
+                <div class="date" id="cityOneDate"></div>
             </div>
-            <div class="time"> 16:15:25 <small>PM</small> </div>
+            <div class="time" id="cityOneTime"></div>
         </div>
 
-        <div class="city-two">
+        <div class="city-two" id="cityTwo">
             <div>
                 <h2> Dronten </h2>
-                <div class="date"> 19 October 2026 </div>
+                <div class="date" id="cityTwoDate"></div>
             </div>
-            <div class="time"> 16:15:25 <small>PM</small> </div>
+            <div class="time" id="cityTwoTime"></div>
         </div>
 
         <footer>
