@@ -19,27 +19,30 @@
     <div class="container">
         <h1> World Clocks </h1>
 
-        <select>
+        <select id="citySelect">
             <option value="">Select a city...</option>
-            <option value="">Amsterdam</option>
-            <option value="">Johannesburg</option>
-            <option value="">London</option>
+            <option value="Europe/Amsterdam">Amsterdam</option>
+            <option value="Australia/Perth">Perth</option>
+            <option value="Asia/Dubai">Dubai</option>
+            <option value="Africa/Johannesburg">Cape Town</option>
         </select>
 
-        <div class="city-one" id="cityOne">
-            <div>
-                <h2> Cape Town </h2>
-                <div class="date" id="cityOneDate"></div>
+        <div id="cities">
+            <div class="city-one" id="cityOne">
+                <div>
+                    <h2> Johannesburg </h2>
+                    <div class="date" id="cityOneDate"></div>
+                </div>
+                <div class="time" id="cityOneTime"></div>
             </div>
-            <div class="time" id="cityOneTime"></div>
-        </div>
 
-        <div class="city-two" id="cityTwo">
-            <div>
-                <h2> Dronten </h2>
-                <div class="date" id="cityTwoDate"></div>
+            <div class="city-two" id="cityTwo">
+                <div>
+                    <h2> London </h2>
+                    <div class="date" id="cityTwoDate"></div>
+                </div>
+                <div class="time" id="cityTwoTime"></div>
             </div>
-            <div class="time" id="cityTwoTime"></div>
         </div>
 
         <footer>
