@@ -24,6 +24,11 @@ cityTwoTimeElement.innerHTML = cityTwoTimeZone.format("HH:mm:ss [<small>]A[</sma
 
 function updateCity(event){
     let timeZone = event.target.value;
+
+    if (timeZone === "current location"){
+        timeZone = moment.tz.guess();
+    }
+    
     let cityTime = moment().tz(timeZone);
     let cityName = timeZone.replaceAll("_", " ").split("/")[1];
     let citiesElement = document.querySelector("#cities");
