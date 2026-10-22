@@ -35,7 +35,7 @@ h2{
 
 select{
     font-family: "Special Elite", system-ui;
-   color: #517564;
+    color: #517564;
     display: block;
     width: 100%;
     border-radius: 5px;
@@ -43,22 +43,28 @@ select{
 }
 
 .city-one{
-    
-display: flex;
-justify-content: space-between;
-margin: 10px 0;
-padding-bottom: 1px;
-border-top: 1px solid gray;
-border-bottom: 1px dashed gray;
-
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding-bottom: 1px;
+    border-top: 1px solid #517564;
+    border-bottom: 1px dashed gray;
 }
 
 .city-two{
-display: flex;
-justify-content: space-between;
-margin: 10px 0;
-padding-bottom: 1px;
-border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding-bottom: 1px;
+    border-bottom: 1px dashed gray;
+}
+
+.city-three{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #517564;
 }
 
 .date{
@@ -84,13 +90,41 @@ border-bottom: 1px solid gray;
 
 footer {
     font-family: "Special Elite", system-ui;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 400;
     text-align: center;
+    padding: 10px;
 }
 
 a{
     text-decoration: none;
     color:#517564;
-    font-weight: 500;
+    font-weight: 800;
+}
+
+/*Styling for elements in JavaScript*/
+.link{
+    text-decoration: none;
+    display: block;
+     color:#517564;
+    font-weight: 800;
+    text-align: center;
+    border-bottom: 1px dashed gray;
+    padding-bottom: 10px;
+}
+
+.city{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding-bottom: 1px;
+    border-top: 1px solid #517564;
+    border-bottom: 1px dashed gray;
+}
+
+.city h2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding-bottom: 1px;
 }
