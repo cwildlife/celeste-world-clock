@@ -10,6 +10,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.31.0/moment.min.js"></script>
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.5/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=globe_clock" />
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
 
     <title>Celeste's World Clock </title>
@@ -17,16 +19,22 @@
 
 <body>
     <div class="container">
-        <h1> World Clocks </h1>
+        <h1>
+            W<span class="material-symbols-outlined">
+                globe_clock
+            </span>rld Cl<span class="material-symbols-outlined">
+                globe_clock
+            </span>cks
+        </h1>
 
         <select id="citySelect">
             <option value="">Select a city...</option>
             <option value="current location"> My location </option>
             <option value="America/Buenos_Aires">Buenos Aires</option>
-            <option value="Australia/Perth">Perth</option>
-            <option value="Asia/Dubai">Dubai</option>
             <option value="Africa/Johannesburg">Johannesburg</option>
             <option value="Indian/Mauritius">Mauritius</option>
+            <option value="Australia/Perth">Perth</option>
+            <option value="Asia/Dubai">Dubai</option>
         </select>
 
         <div id="cities">
@@ -57,9 +65,13 @@
         </div>
 
         <footer>
-            This project was coded by <a href="https://github.com/cwildlife" target="_blank">Celeste Rust</a> and is
-            open-sourced on <a href="https://github.com/cwildlife/celeste-world-clock" target="_blank"> Github</a>.
-            The project is hosted on <a href="https://celeste-world-clock.vercel.app/" target="_blank">Vercel</a>.
+            <div>
+                This project was coded by <a href="https://github.com/cwildlife" target="_blank">Celeste Rust</a> and is
+                open-sourced on <a href="https://github.com/cwildlife/celeste-world-clock" target="_blank"> Github</a>.
+            </div>
+            <div>
+                The project is hosted on <a href="https://celeste-world-clock.vercel.app/" target="_blank">Vercel</a>.
+            </div>
         </footer>
         <script src="src/script.js"></script>
     </div>
