@@ -5,12 +5,16 @@ body{
     background-position: center;
 }
 
+.material-symbols-outlined {
+    font-size: 30px;
+}
+
 .container {
     max-width: 500px;
-    padding: 30px;
+    padding: 20px;
     margin: 60px auto;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     line-height: 1.5;
 }
 
@@ -37,8 +41,9 @@ select{
     font-family: "Special Elite", system-ui;
     color: #517564;
     display: block;
+    text-align: center;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 10px;
 }
 
@@ -106,11 +111,14 @@ a{
 .link{
     text-decoration: none;
     display: block;
-     color:#517564;
+    color:#517564;
     font-weight: 800;
     text-align: center;
     border-bottom: 1px dashed gray;
     padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Rubik Dirt", system-ui;
 }
 
 .city{
